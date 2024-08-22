@@ -1,7 +1,33 @@
-# Rock-Paper-Scissor
-In this game, the user gets the first chance to pick the option between Rock, paper, and scissors. After the computer select from the remaining two choices(randomly), the winner is decided as per the rules.
+Rock-Paper-Scissors Game
+Welcome to the classic Rock-Paper-Scissors game! This project allows you to play the game directly in your browser using a simple and interactive Streamlit web app.
 
-Winning Rules as follows:
-Rock vs paper-> paper wins
-Rock vs scissor-> Rock wins
-paper vs scissor-> scissor wins.
+🎮 Game Rules
+The rules of the game are simple:
+
+Rock 🪨 beats Scissors ✂️
+Scissors ✂️ beats Paper 📄
+Paper 📄 beats Rock 🪨
+
+🚀 How to Play
+User's Turn: You start by choosing between Rock, Paper, or Scissors.
+Computer's Turn: The computer randomly selects its choice from the remaining options.
+Winner Determination: The winner is decided based on the rules mentioned above.
+
+🛠️ Running the Game Locally
+To run the game on your local machine:
+1 - Clone the Repository:
+git clone https://github.com/yourusername/rock-paper-scissors-game.git
+cd rock-paper-scissors-game
+2 - Install the Required Dependencies:
+Ensure you have Python installed. Then, install the required packages using pip:
+pip install -r requirements.txt
+3 - Run the Streamlit App:
+Start the game by running the following command:
+streamlit run Gameapp.py
+4 - Play the Game: The app will launch in your default web browser. Select your choice (Rock, Paper, or Scissors) and click "Play!" to start the game.
+
+🌟 Features
+User-Friendly Interface: The game is designed to be intuitive and fun to play.
+Interactive Gameplay: Immediate feedback and result display after each round.
+No Installation Required: Just clone the repo, install dependencies, and play!
+
